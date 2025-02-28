@@ -1,0 +1,23 @@
+{
+  "item.Latamland.latam": "LatamLand Item",
+  "item.Latamland.lightning_stick": "Lightning Stick",
+  "item.Latamland.microphone": "Microphone",
+  "block.Latamland.latam_block": "LatamLand Block",
+  "block.Latamland.speaker": "Speaker",
+  "block.Latamland.gold_block_slab": "Gold Block slab",
+  "block.Latamland.gold_block_stairs": "Gold Block stairs",
+  "block.Latamland.gold_block_wall": "Gold Block wall",
+  "itemGroup.Latamland.latam_item_group": "LatamLand Items",
+  "itemGroup.Latamland.latam_block_group": "LatamLand Blocks",
+  "block.Latamland.stage_block": "Stage Block",
+  "block.Latamland.stage_block_stairs": "Stage Block Stairs",
+  "block.Latamland.stage_block_slab": "Stage Block Slabs",
+  "block.Latamland.seat": "Seat",
+  "block.Latamland.stand": "Stand",
+  "block.Latamland.gray_concrete_slab": "Gray Concrete Slab",
+  "block.Latamland.gray_concrete_stairs": "Gray Concrete Stairs",
+  "block.Latamland.black_concrete_slab": "Black Concrete Slab",
+  "block.Latamland.white_concrete_slab": "White Concrete Slab",
+  "block.Latamland.white_concrete_vertical_slab": "White Concrete Vertical Slab",
+  "block.Latamland.white_bricks": "White Bricks"
+}

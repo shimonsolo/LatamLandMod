@@ -1,0 +1,10 @@
+{
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "0": "block/animated_block",
+    "particle": "block/animated_block"
+  }
+}

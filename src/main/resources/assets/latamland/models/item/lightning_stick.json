@@ -1,0 +1,67 @@
+{
+	"credit": "By shimonsolo, Made with blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "latamland:item/lightning_stick",
+		"particle": "latamland:item/lightning_stick"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 6],
+			"to": [9, 24, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 12], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 12], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 12], "texture": "#0"},
+				"up": {"uv": [11, 7, 10, 6], "texture": "#0"},
+				"down": {"uv": [11, 7, 10, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 24, 4],
+			"to": [11, 30, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 30, 4]},
+			"faces": {
+				"north": {"uv": [4, 0, 7, 3], "texture": "#0"},
+				"east": {"uv": [4, 3, 7, 6], "texture": "#0"},
+				"south": {"uv": [4, 6, 7, 9], "texture": "#0"},
+				"west": {"uv": [7, 0, 10, 3], "texture": "#0"},
+				"up": {"uv": [10, 6, 7, 3], "texture": "#0"},
+				"down": {"uv": [10, 6, 7, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -4.5, 1.25],
+			"scale": [0.61719, 0.61719, 0.61719]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -4.5, 1.25],
+			"scale": [0.61719, 0.61719, 0.61719]
+		},
+		"firstperson_righthand": {
+			"translation": [-1.25, -5.5, 2.25],
+			"scale": [0.5957, 0.5957, 0.5957]
+		},
+		"firstperson_lefthand": {
+			"translation": [-1.25, -5.5, 2.25],
+			"scale": [0.5957, 0.5957, 0.5957]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [2.25, 0.25, 1.75]
+		},
+		"gui": {
+			"rotation": [56.09, 52.08, -85.12],
+			"translation": [-1, -2.25, 0],
+			"scale": [0.52539, 0.52539, 0.52539]
+		},
+		"fixed": {
+			"translation": [0, -2.75, 0],
+			"scale": [1.37109, 1.37109, 1.37109]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "latamland:block/stage_block",
+    "side": "latamland:block/stage_block",
+    "top": "latamland:block/stage_block"
+  }
+}

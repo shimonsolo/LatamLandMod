@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "latamland:block/stage_block_slab"
+    },
+    "type=double": {
+      "model": "latamland:block/stage_block"
+    },
+    "type=top": {
+      "model": "latamland:block/stage_block_slab_top"
+    }
+  }
+}

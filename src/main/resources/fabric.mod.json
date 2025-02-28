@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "latamland",
+	"version": "${version}",
+	"name": "Latamland",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Shimonsolo",
+		"Thunder Studio"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/latamland/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"net.shimonsolo.LatamLand.client.LatamlandClient"
+		],
+		"main": [
+			"net.shimonsolo.LatamLand.Latamland"
+		],
+		"fabric-datagen": [
+			"net.shimonsolo.LatamLand.LatamlandDataGenerator"
+		]
+	},
+	"mixins": [
+		"latamland.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

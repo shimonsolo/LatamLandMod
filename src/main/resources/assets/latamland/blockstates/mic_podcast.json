@@ -1,0 +1,8 @@
+{
+  "variants": {
+      "facing=north": { "model": "latamland:block/mic_podcast", "uvlock": false},
+      "facing=east":  { "model": "latamland:block/mic_podcast", "y":  90, "uvlock": false },
+      "facing=south": { "model": "latamland:block/mic_podcast", "y": 180, "uvlock": false },
+      "facing=west":  { "model": "latamland:block/mic_podcast", "y": 270, "uvlock": false }
+  }
+}

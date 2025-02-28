@@ -1,0 +1,8 @@
+{
+  "variants": {
+      "facing=north": { "model": "latamland:block/microphone_stand", "uvlock": false},
+      "facing=east":  { "model": "latamland:block/microphone_stand", "y":  90, "uvlock": false },
+      "facing=south": { "model": "latamland:block/microphone_stand", "y": 180, "uvlock": false },
+      "facing=west":  { "model": "latamland:block/microphone_stand", "y": 270, "uvlock": false }
+  }
+}

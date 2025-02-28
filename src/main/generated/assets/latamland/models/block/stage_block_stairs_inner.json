@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "latamland:block/stage_block",
+    "side": "latamland:block/stage_block",
+    "top": "latamland:block/stage_block"
+  }
+}

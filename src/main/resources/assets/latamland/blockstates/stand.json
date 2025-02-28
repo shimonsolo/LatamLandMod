@@ -1,0 +1,8 @@
+{
+  "variants": {
+      "facing=north": { "model": "latamland:block/stand", "uvlock": false },
+      "facing=east":  { "model": "latamland:block/stand", "y":  90, "uvlock": false },
+      "facing=south": { "model": "latamland:block/stand", "y": 180, "uvlock": false },
+      "facing=west":  { "model": "latamland:block/stand", "y": 270, "uvlock": false }
+  }
+}

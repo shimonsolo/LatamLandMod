@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "latamland:block/subwoofer18", "uvlock": false },
+    "facing=east":  { "model": "latamland:block/subwoofer18", "y":  90, "uvlock": false },
+    "facing=south": { "model": "latamland:block/subwoofer18", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "latamland:block/subwoofer18", "y": 270, "uvlock": false }
+  }
+}

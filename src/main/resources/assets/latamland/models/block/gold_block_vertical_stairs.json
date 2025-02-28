@@ -1,0 +1,6 @@
+{
+  "parent": "latamland:block/vertical_stairs",
+  "textures": {
+    "all": "minecraft:block/gold_block"
+  }
+}

@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "latamland:block/mic_podcast",
+		"particle": "latamland:block/mic_podcast"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 1, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 5]},
+			"faces": {
+				"north": {"uv": [9, 8, 13, 9], "texture": "#0"},
+				"east": {"uv": [9, 9, 13, 10], "texture": "#0"},
+				"south": {"uv": [7, 10, 11, 11], "texture": "#0"},
+				"west": {"uv": [11, 4, 15, 5], "texture": "#0"},
+				"up": {"uv": [8, 8, 4, 4], "texture": "#0"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 1, 7.5],
+			"to": [8.5, 7, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 1, 6.5]},
+			"faces": {
+				"north": {"uv": [4, 8, 5, 14], "texture": "#0"},
+				"east": {"uv": [8, 4, 9, 10], "texture": "#0"},
+				"south": {"uv": [5, 8, 6, 14], "texture": "#0"},
+				"west": {"uv": [6, 8, 7, 14], "texture": "#0"},
+				"up": {"uv": [8, 9, 7, 8], "texture": "#0"},
+				"down": {"uv": [8, 9, 7, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5.75, 2.5],
+			"to": [9, 7.75, 10.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 5.75, 9.5]},
+			"faces": {
+				"north": {"uv": [9, 6, 11, 8], "texture": "#0"},
+				"east": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"south": {"uv": [9, 4, 11, 6], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 2], "texture": "#0"},
+				"up": {"uv": [2, 12, 0, 4], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 4, 2, 12], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [29.25, 52.5, 0],
+			"translation": [0, 1.25, 0]
+		}
+	}
+}
