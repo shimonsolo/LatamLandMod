@@ -9,6 +9,7 @@ import net.shimonsolo.LatamLand.command.MuteCommand;
 import net.shimonsolo.LatamLand.command.UnMuteCommand;
 import net.shimonsolo.LatamLand.item.ModitemGroups;
 import net.shimonsolo.LatamLand.item.Moditems;
+import net.shimonsolo.LatamLand.screen.ModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.bernie.geckolib.GeckoLib;
@@ -16,7 +17,6 @@ import software.bernie.geckolib.GeckoLib;
 public class Latamland implements ModInitializer {
 
     public static final String MODID = "latamland";
-
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
     @Override
@@ -27,6 +27,7 @@ public class Latamland implements ModInitializer {
         ModBlockEntities.registerAllBlockEntities();
         MuteCommand.register();
         UnMuteCommand.register();
+        ModScreenHandlers.register();
 
         GeckoLib.initialize();
 
@@ -34,7 +35,7 @@ public class Latamland implements ModInitializer {
                 .frameBlock(ModBlocks.LATAM_BLOCK.getLeft())
                 .lightWithItem(Moditems.LATAM)
                 .destDimID(new Identifier(Latamland.MODID, "event"))
-                .tintColor(0,0,0)
+                .tintColor(0, 0, 0)
                 .registerPortal();
     }
 }

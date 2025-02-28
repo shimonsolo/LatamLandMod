@@ -12,8 +12,8 @@ public class Moditems {
     public static final net.minecraft.item.Item LATAM = registerItem("latam", new Latamitem(new net.minecraft.item.Item.Settings()));
     public static final net.minecraft.item.Item LIGHTNING_STICK = registerItem("lightning_stick", new LightningStick(new net.minecraft.item.Item.Settings()));
     public static final net.minecraft.item.Item CATCH_MAGIC = registerItem("catch_magic", new LightningStick(new net.minecraft.item.Item.Settings()));
-    public static final net.minecraft.item.Item MICROPHONE = registerItem("microphone", new Item(new net.minecraft.item.Item.Settings()));
-    public static final net.minecraft.item.Item CARD = registerItem("card", new Item(new net.minecraft.item.Item.Settings()));
+    public static final net.minecraft.item.Item MICROPHONE = registerItem("microphone", new ItemCard(new net.minecraft.item.Item.Settings()));
+    public static final net.minecraft.item.Item CARD = registerItem("card", new ItemCard(new net.minecraft.item.Item.Settings()));
 
 
     public static final net.minecraft.item.Item ANIMATED_BLOCK_ITEM = registerItem(
