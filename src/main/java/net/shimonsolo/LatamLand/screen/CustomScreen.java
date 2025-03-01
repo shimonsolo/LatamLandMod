@@ -24,8 +24,8 @@ public class CustomScreen extends Screen {
         this.renderBackground(context);
 
         // Tamaño de la imagen
-        int imageWidth = 200;
-        int imageHeight = 150;
+        int imageWidth = 248;
+        int imageHeight = 166;
 
         int x = (this.width - imageWidth) / 2;
         int y = (this.height - imageHeight) / 2;
