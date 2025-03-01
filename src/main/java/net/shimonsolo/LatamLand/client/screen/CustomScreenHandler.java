@@ -1,4 +1,4 @@
-package net.shimonsolo.LatamLand.screen;
+package net.shimonsolo.LatamLand.client.screen;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;

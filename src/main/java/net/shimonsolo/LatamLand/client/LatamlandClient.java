@@ -4,6 +4,7 @@ import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.shimonsolo.LatamLand.blocks.entity.ModBlockEntities;
 import net.shimonsolo.LatamLand.blocks.entity.client.AnimatedBlockRenderer;
+import net.shimonsolo.LatamLand.client.screen.ModScreenHandlers;
 
 public class LatamlandClient implements ClientModInitializer {
 
@@ -13,5 +14,6 @@ public class LatamlandClient implements ClientModInitializer {
                 ModBlockEntities.ANIMATED_BLOCK_ENTITY,
                 AnimatedBlockRenderer::new
         );
+        ModScreenHandlers.register();
     }
 }

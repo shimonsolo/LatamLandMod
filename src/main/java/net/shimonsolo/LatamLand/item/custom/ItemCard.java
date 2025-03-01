@@ -8,7 +8,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
-import net.shimonsolo.LatamLand.screen.CustomScreen;
+import net.shimonsolo.LatamLand.client.screen.CustomScreen;
 
 public class ItemCard extends Item {
     public ItemCard(Settings settings) {
@@ -19,7 +19,7 @@ public class ItemCard extends Item {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
         if (world.isClient) {
-            MinecraftClient.getInstance().setScreen(new CustomScreen(Text.of("Título de pantalla")));
+            MinecraftClient.getInstance().setScreen(new CustomScreen(Text.of("Tíulo de pantallat")));
         }
         return TypedActionResult.success(player.getStackInHand(hand));
     }}

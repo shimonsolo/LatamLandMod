@@ -9,7 +9,7 @@ import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.text.Text;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import net.shimonsolo.LatamLand.screen.CustomScreen;
+import net.shimonsolo.LatamLand.client.screen.CustomScreen;
 
 public class CardgiveCommand {
 

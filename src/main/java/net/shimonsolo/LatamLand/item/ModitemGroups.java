@@ -13,7 +13,7 @@ import net.shimonsolo.LatamLand.blocks.ModBlocks;
 public class ModitemGroups {
     public static final ItemGroup LATAM_BLOCK_GROUP = registerItemGroup("latam_block_group",
             FabricItemGroup.builder()
-                    .displayName(Text.translatable("itemGroup.Latamland.latam_block_group"))
+                    .displayName(Text.translatable("itemGroup.latamland.latam_block_group"))
                     .icon(() -> new ItemStack(Moditems.LATAM))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.LATAM_BLOCK.getRight());
@@ -56,7 +56,7 @@ public class ModitemGroups {
 
     public static final ItemGroup LATAM_ITEM_GROUP = registerItemGroup("latam_item_group",
             FabricItemGroup.builder()
-                    .displayName(Text.translatable("itemGroup.Latamland.latam_item_group"))
+                    .displayName(Text.translatable("itemGroup.latamland.latam_item_group"))
                     .icon(() -> new ItemStack(Moditems.LIGHTNING_STICK))
                     .entries((displayContext, entries) -> {
                         entries.add(Moditems.LATAM);

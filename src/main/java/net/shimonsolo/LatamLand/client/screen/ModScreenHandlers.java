@@ -1,4 +1,4 @@
-package net.shimonsolo.LatamLand.screen;
+package net.shimonsolo.LatamLand.client.screen;
 
 import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
 import net.minecraft.screen.ScreenHandlerType;

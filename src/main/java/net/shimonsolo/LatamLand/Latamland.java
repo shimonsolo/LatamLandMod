@@ -10,7 +10,7 @@ import net.shimonsolo.LatamLand.command.MuteCommand;
 import net.shimonsolo.LatamLand.command.UnMuteCommand;
 import net.shimonsolo.LatamLand.item.ModitemGroups;
 import net.shimonsolo.LatamLand.item.Moditems;
-import net.shimonsolo.LatamLand.screen.ModScreenHandlers;
+import net.shimonsolo.LatamLand.client.screen.ModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.bernie.geckolib.GeckoLib;

@@ -1,4 +1,4 @@
-package net.shimonsolo.LatamLand.screen;
+package net.shimonsolo.LatamLand.client.screen;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.DrawContext;
