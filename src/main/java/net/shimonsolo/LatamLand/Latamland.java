@@ -5,6 +5,7 @@ import net.minecraft.util.Identifier;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.shimonsolo.LatamLand.blocks.ModBlocks;
 import net.shimonsolo.LatamLand.blocks.entity.ModBlockEntities;
+import net.shimonsolo.LatamLand.command.CardgiveCommand;
 import net.shimonsolo.LatamLand.command.MuteCommand;
 import net.shimonsolo.LatamLand.command.UnMuteCommand;
 import net.shimonsolo.LatamLand.item.ModitemGroups;
@@ -21,6 +22,7 @@ public class Latamland implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        CardgiveCommand.register();
         ModBlocks.registerBlocks();
         Moditems.registerItems();
         ModitemGroups.registerItemGoups();
